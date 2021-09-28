@@ -1,10 +1,11 @@
 #!/bin/bash
 # Instruções: https://raw.githubusercontent.com/fnixdev/KannaX
 # Para executar o script de configuração, use:
+#
 # wget https://fnixdev.github.io/Setup_Local_VPS.sh
 # chmod +x Setup_Local_VPS.sh
 # ./Setup_Local_VPS.sh
-# Se for copiar por favor deixe os creditos, da trabalho pra fazer
+#
 # GitHub Repository: https://github.com/fnixdev/KannaX
 
 echo "Script de instalação do KannaX by fnixdev"
@@ -34,6 +35,7 @@ echo "Instalando Python3.9..."
 sudo apt install software-properties-common -y
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt install python3.9 -y
+sudo apt install neofetch -y
 
 echo "Clonando Repositorio"
 cd ~
@@ -81,5 +83,5 @@ done
 
 echo "KANNABOT INSTALADO COM SUCESSO"
 echo "CONFIGURE SUAS VARs PARA INICIAR O KannaX"
-echo "PARA INICIAR O KannaX DIGITE "./start.sh"
+echo "PARA INICIAR O KannaX DIGITE ./start.sh"
 echo "OBRIGADO POR ESCOLHER O KannaX"
